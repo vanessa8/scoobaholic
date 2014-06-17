@@ -18,6 +18,34 @@
 
  <body>
 
+  <script>
+      window.fbAsyncInit = function() {
+        FB.init({
+          appId      : '{1420148611599923}',
+          xfbml      : true,
+          version    : 'v2.0'
+        });
+      };
+
+      (function(d, s, id){
+         var js, fjs = d.getElementsByTagName(s)[0];
+         if (d.getElementById(id)) {return;}
+         js = d.createElement(s); js.id = id;
+         js.src = "//connect.facebook.net/en_US/sdk.js";
+         fjs.parentNode.insertBefore(js, fjs);
+       }(document, 'script', 'facebook-jssdk'));
+    </script>
+
+    <div id="fb-root"></div>
+    <script>(function(d, s, id) {
+    var js, fjs = d.getElementsByTagName(s)[0];
+    if (d.getElementById(id)) return;
+     js = d.createElement(s); js.id = id;
+    js.src = "//connect.facebook.net/en_GB/sdk.js#xfbml=1&appId=1420148611599923&version=v2.0";
+    fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));</script>
+
+
     <div class="nav">
             <div class="navbtn">
                 <button type="button" class="btn btn-default navbar-btn">sign in</button>
@@ -46,7 +74,10 @@
                     <h4>Banded coral shrimp</h4>
                     <p>These dudes love to clean.  They remove dead tissue, parasites and algae from bigger fish and are around 7-10cm long with really really long antennae longer than their body!<br></p>
                 </div>
-            
+                
+
+            <div class="fb-like" data-href="https://developers.facebook.com/docs/plugins/" data-layout="standard" data-action="like" data-show-faces="true" data-share="true"></div>
+
             </div>   
 
 
