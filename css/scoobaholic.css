@@ -136,6 +136,6 @@ p {
 }
 
 /* hide facebook comment popup */
-.fb-like iframe + div {
+.fb-like iframe table + div {
     display: none !important;
 }
