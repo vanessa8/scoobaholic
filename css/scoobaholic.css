@@ -1,0 +1,136 @@
+body {
+    background-color: #50ABFF;
+    font-size: 14px;
+}
+
+
+img {
+  width: 100%;
+
+}
+
+
+p {
+    font-size: 14px;
+    line-height: 18px;
+    padding: 1px;
+}
+
+.navbtn {
+  float: right;
+  padding: 10px;
+  font-family: Gill Sans;
+}
+
+.navbar-text {
+  float: left;
+  font-size: 60px;
+  color: #FFF084;
+  font-family: Gill Sans;
+  padding-top: 10px;
+
+}
+
+.sub {
+  color: white;
+  font-family: Gill Sans;
+  font-size: 20px;
+  padding-top: 15px;
+  padding-left: 20px;
+}
+
+.container-fluid {
+  margin: 10px;
+}
+
+.row {
+
+  -moz-column-width: 15em;
+  -webkit-column-width: 15em;
+  -moz-column-gap: 1em;
+  -webkit-column-gap:1em; 
+  
+}
+
+.col-md-4 {
+  display: inline-block;
+  background-color: #D9DBE2;
+  width:  100%; 
+  float: none;
+  line-height: 1;
+  border: 2px solid white;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+  margin-bottom: 5px;
+  margin-top: 5px;
+  padding: 1px;
+  position: relative;
+}
+
+.rounded {
+  background-color: #D9DBE2;
+  height: auto;
+  width: 100%;
+  border-radius: 10px;
+  padding-bottom: 2px;
+}
+
+.photo {
+  background-color: #D9DBE2;
+  height: auto;
+  width: 100%;
+  border-radius: 10px;
+  padding-bottom: 2px;
+}
+
+.hover { 
+ -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: transform;
+  transition-property: transform;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-transform: scale(0.95);
+  transform: scale(0.95);
+}
+
+
+
+.article {
+  background-color: #D9DBE2;
+  color: #50ABFF;
+  border-radius: 10px;
+  padding: 0px;
+  margin: 0px;
+  font-family: Gill Sans;
+  text-align: justify;
+
+}
+
+.article h4 {
+  padding: 1px;
+  color: white;
+}
+
+
+#sidebar {
+  width: 200px;
+  height: 800px;
+  background-color: #D9DBE2;
+  border-radius: 10px;
+  border-color: white;
+  border-style: solid
+
+}
+
+.footer {
+    border-top: 1px solid white;
+    margin-top: 35px;
+    padding-top: 6px;
+    text-align: center;
+    font-size: 12px;
+    font-family: Gill Sans;
+    color: #FFF084;
+}
