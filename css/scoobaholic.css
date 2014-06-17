@@ -136,6 +136,6 @@ p {
 }
 
 /* hide facebook comment popup */
-.fb_edge_widget_with_comment span.fb_edge_comment_widget iframe.fb_ltr {
+.fb-like iframe + div {
     display: none !important;
 }
