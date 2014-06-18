@@ -35,9 +35,7 @@ p {
 }
 
 .container-fluid {
-  float: left;
-  width: 80%;
-  margin: 7px;
+  margin: 10px;
 }
 
 .row {
@@ -113,17 +111,19 @@ p {
 
 .wrapper {
   background-color: #D9DBE2;
-  float: right;
-  border-style: solid white;
+  padding-left: 300px;
+  border-style: solid;
+  border-color: white;
   border-radius: 10px;
-  margin: 7px;
-  width: 17%;
-  height: 600px;
+  margin: 10px;
+  width: 60%;
+  height: 200px;
   overflow: scroll;
 }
 
 .fb-like {
   padding: 5px;
+  float: right;
 
 }
 
@@ -136,7 +136,7 @@ p {
     display: none !important;
 }
 
-/*.footer {
+.footer {
     border-top: 1px solid white;
     padding-top: 6px;
     text-align: center;
