@@ -129,7 +129,7 @@ p {
 
 .fb-comments {
   padding: 5px;
-  width: 14%;
+  float: left;
 }
 
 .fb_edge_widget_with_comment span.fb_edge_comment_widget iframe.fb_ltr {
