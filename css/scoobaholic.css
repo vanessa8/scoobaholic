@@ -35,7 +35,9 @@ p {
 }
 
 .container-fluid {
-  margin: 10px;
+  float: left;
+  width: 80%;
+  margin: 7px;
 }
 
 .row {
@@ -111,29 +113,30 @@ p {
 
 .wrapper {
   background-color: #D9DBE2;
-  border-style: white solid;
+  float: right;
+  border-style: solid white;
   border-radius: 10px;
-  width: 100%;
-  height: 150px;
+  margin: 7px;
+  width: 17%;
+  height: 600px;
   overflow: scroll;
 }
 
 .fb-like {
-  float: right;
   padding: 5px;
 
 }
 
 .fb-comments {
-  float: left;
   padding: 5px;
+  width: 14%;
 }
 
 .fb_edge_widget_with_comment span.fb_edge_comment_widget iframe.fb_ltr {
     display: none !important;
 }
 
-.footer {
+/*.footer {
     border-top: 1px solid white;
     padding-top: 6px;
     text-align: center;
