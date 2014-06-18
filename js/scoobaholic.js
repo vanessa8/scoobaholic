@@ -10,7 +10,7 @@ mode:"jump"
 $(".sub").letterfx({"fx":"spin swirl",
 });
 
-$(".photo").colorbox({maxWidth: "500px", maxHeight: "500px"});
+$(".photo").colorbox();
 
 
 //bubbles effect:-
