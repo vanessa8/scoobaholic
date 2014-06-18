@@ -118,7 +118,7 @@ hr {
   border-color: #FFDE00;
   border-radius: 10px;
   margin: 10px;
-  width: 60%;
+  width: 65%;
   height: 200px;
   overflow: scroll;
 }
@@ -136,6 +136,17 @@ hr {
 
 .fb_edge_widget_with_comment span.fb_edge_comment_widget iframe.fb_ltr {
     display: none !important;
+}
+
+.about {
+  background color: #0191C8;
+  border-style: solid;
+  border-color: #FFDE00;
+  border-radius: 10px;
+  margin: 10px;
+  width: 30%;
+  height: 200px;
+
 }
 
 .footer {
