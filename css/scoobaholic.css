@@ -16,11 +16,6 @@ p {
     padding: 1px;
 }
 
-.navbtn {
-  float: right;
-  padding: 10px;
-  font-family: Gill Sans;
-}
 
 .navbar-text {
   float: left;
@@ -116,8 +111,8 @@ p {
 
 
 #sidebar {
-  width: 200px;
-  height: 800px;
+  width: 250px;
+  height: 0auto;
   background-color: #D9DBE2;
   border-radius: 10px;
   border-color: white;
