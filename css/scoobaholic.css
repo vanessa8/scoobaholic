@@ -114,8 +114,12 @@ p {
   border-style: white solid;
   border-radius: 10px;
   width: 100%;
-  height: 100px;
+  height: 200px;
   overflow: scroll;
+}
+
+.fb-like {
+  float: right;
 }
 
 .footer {
