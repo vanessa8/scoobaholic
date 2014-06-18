@@ -111,6 +111,8 @@ p {
 
 .wrapper {
   background-color: #D9DBE2;
+  border-style: white solid;
+  border-radius: 10px;
   width: 100%;
   height: 100px;
   overflow: scroll;
@@ -118,15 +120,9 @@ p {
 
 .footer {
     border-top: 1px solid white;
-    margin-top: 35px;
     padding-top: 6px;
     text-align: center;
     font-size: 12px;
     font-family: Gill Sans;
     color: #FFF084;
-}
-
-/* hide facebook comment popup */
-.fb-like iframe table + div {
-    display: none !important;
 }
