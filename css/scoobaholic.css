@@ -133,7 +133,7 @@ p {
   border-style: solid;
   border-color: #FFDE00;
   border-radius: 10px;
-  float: right;
+  float: left;
   margin: 10px;
   width: 29%;
   height: 200px; 
@@ -147,13 +147,13 @@ p {
 
 .fb-like {
   padding: 5px;
-  float: right;
+  float: left;
   height: 25px;
   overflow: hidden;
 }
 
 .fb-comments {
-  padding: 5px;
+  padding: 10px;
   float: left;
 }
 
