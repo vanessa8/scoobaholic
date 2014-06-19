@@ -170,6 +170,30 @@ p {
   color: #FFDE00;
 }
 
+@media screen and (max-width: 680px) {
+
+.about { 
+      float: left;  
+      width: 80%;
+      height: auto;
+  }
+
+
+p {
+  font-size: auto;
+}
+
+.wrapper {
+  width: 80%;
+  height: auto;
+}
+
+.fb-comments {
+  width: 80%;
+  height: auto;
+}
+
+
 /*.footer {
     border-top: 1px solid white;
     padding-top: 6px;
