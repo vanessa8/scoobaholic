@@ -129,7 +129,8 @@ p {
 .fb-like {
   padding: 5px;
   float: right;
-
+  height: 25px;
+  overflow: hidden;
 }
 
 .fb-comments {
