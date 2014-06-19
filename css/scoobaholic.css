@@ -121,6 +121,11 @@ p {
   overflow: scroll;
 }
 
+.wrapper h4 {
+  padding: 2px;
+  color: #005B9A;
+}
+
 .fb-like {
   padding: 5px;
   float: right;
