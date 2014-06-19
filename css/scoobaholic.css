@@ -117,12 +117,29 @@ p {
   border-radius: 10px;
   float: left;
   margin: 10px;
-  width: 65%;
+  width: 40%;
   height: 200px;
   overflow: scroll;
 }
 
 .wrapper h4 {
+  font-family: Indie Flower;
+  padding: 2px;
+  color: #005B9A;
+}
+
+.like {
+  background-color: #0191C8;
+  border-style: solid;
+  border-color: #FFDE00;
+  border-radius: 10px;
+  float: left;
+  margin: 10px;
+  width: 29%;
+  height: 200px; 
+}
+
+.like h4 {
   font-family: Indie Flower;
   padding: 2px;
   color: #005B9A;
@@ -177,11 +194,11 @@ p {
   color: #FFDE00;
 }
 
-@media screen and (max-width: 680px) {
+@media screen and (max-width: 980px) {
 
 .about { 
       float: left;  
-      width: 80%;
+      width: 90%;
       height: auto;
   }
 
@@ -191,7 +208,7 @@ p {
 }
 
 .wrapper {
-  width: 80%;
+  width: 90%;
   height: auto;
 }
 
@@ -200,6 +217,10 @@ p {
   height: auto;
 }
 
+.like {
+  width: 90%;
+  height: auto;
+}
 
 /*.footer {
     border-top: 1px solid white;
