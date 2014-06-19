@@ -21,14 +21,14 @@ p {
   float: left;
   font-size: 60px;
   color: #FFDE00;
-  font-family: Gill Sans;
+  font-family: Indie Flower;
   padding-top: 10px;
 
 }
 
 .sub {
   color: #0191C8;
-  font-family: Gill Sans;
+  font-family: Indie Flower;
   font-size: 20px;
   padding-top: 15px;
   padding-left: 20px;
@@ -99,12 +99,13 @@ p {
   border-radius: 10px;
   padding: 2px;
   margin: 0px;
-  font-family: Gill Sans;
+  font-family: Indie Flower;
   text-align: justify;
 
 }
 
 .article h4 {
+  font-family: Indie Flower;
   padding: 2px;
   color: #005B9A;
 }
@@ -122,6 +123,7 @@ p {
 }
 
 .wrapper h4 {
+  font-family: Indie Flower;
   padding: 2px;
   color: #005B9A;
 }
@@ -150,6 +152,7 @@ p {
   border-color: #FFDE00;
   border-radius: 10px;
   text-align: center;
+  font-family: Indie Flower;
   padding: 5px;
   margin: 10px;
   width: 25%;
@@ -158,15 +161,18 @@ p {
 }
 
 .about h4 {
+  font-family: Indie Flower;
   padding: 5px;
   color: #005B9A;
 }
 
 .about a {
+  font-family: Indie Flower;
   color: #FFDE00;
 }
 
 #copyright {
+  font-family: Indie Flower;
   font-size: 10px;
   color: #FFDE00;
 }
