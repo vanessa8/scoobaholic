@@ -222,6 +222,16 @@ p {
   height: auto;
 }
 
+}
+
+@media screen and (max-width: 480px) {
+
+.navbar-text.isTextAnimated {
+  width: 90%;
+}
+}
+
+
 /*.footer {
     border-top: 1px solid white;
     padding-top: 6px;
